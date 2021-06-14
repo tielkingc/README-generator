@@ -1,7 +1,7 @@
 
   # Run Buddy
 
-  [![license](https://img.shields.io/badge/License-CDDL-1.0-blue.svg)](https://opensource.org/licenses/CDDL-1.0)
+  [![license](https://img.shields.io/badge/License-CDDL--1.0-blue)](https://opensource.org/licenses/CDDL-1.0)
 
   ## Run buddy provides users with information from a local gym, such as steps to increase health and provide them with breif descriptions of some of the trainers.
 
