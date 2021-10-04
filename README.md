@@ -1,9 +1,9 @@
 
-  # Run Buddy
+  # Work Day Scheduler
 
-  [![license](https://img.shields.io/badge/License-CDDL--1.0-blue)](https://opensource.org/licenses/CDDL-1.0)
+  [![License](https://img.shields.io/badge/License-CDDL-1.0-blue.svg)](https://opensource.org/licenses/CDDL-1.0)
 
-  ## Run buddy provides users with information from a local gym, such as steps to increase health and provide them with breif descriptions of some of the trainers.
+  ## This project will provide the user with time blocks, starting at 9 am and ending at 5 pm. The user will be able to add tasks to the time blocks, and the site will keep track of the current time. Depending on the current time and the time of the block, the project will change the background of the time block. For example, if the current time is 3:03 pm the 3:00 pm time block will turn red.
 
   ## Table of Contents
 
@@ -16,23 +16,28 @@
   undefined
 
   ## Usage
-  Navigate through the site to check out the information!
+  1. Pick a time block that you need to do a task/schedule an event in.
+2. Type in the task/event.
+3. Click the save icon.
+4. Repeat steps 1-3 everyday.
+
+Note: Time blocks can be edited by simply clicking on them.
 
   ## Credits
-  *tielkingc
+  tielkingc
 
   ## License
   [CDDL-1.0](https://opensource.org/licenses/CDDL-1.0)
   undefined
 
   ## Contributing
-  Please reach out to me through GitHub or email!
+  
 
   ## Test
-  No tests! Just enjoy the information!
+  
 
   ## Questsions
   GitHub: [tielkingc](https://github.com/tielkingc)
   Email: tielking5@gmail.com
 
-  I prefer if you would reach out to me via email. Thank you!
+  

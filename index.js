@@ -12,11 +12,8 @@ const questions = ["What is the title of your project?",
                 "Please provide examples/instructions on how to use your project. Press <enter> to launch editor.",
                 "Please list the name of GitHub users that contributed to this project. Press <enter> to launch editor.",
                 "What license would you like to list this project under?",
-                "What instructions would you like to provide to users who want to contribute to this project? Press <enter> to launch editor.",
-                "Please provide tests for your project and how to run them. Press <enter> to launch editor.",
                 "What is your GitHub username?",
-                "What is your email?",
-                "Please provide instructions on how users can reach you. Press <enter> to launch editor."];
+                "What is your email?"];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
@@ -88,7 +85,8 @@ function init() {
                     'LGPL-3.0',
                     'MIT',
                     'MPL-2.0',
-                    'CDDL-1.0'],
+                    'CDDL-1.0',
+                    'None'],
             validate: projectLic => {
                 if (!projectLic){
                     console.log("Please select a license for your project.");
@@ -97,18 +95,6 @@ function init() {
                     return true;
                 }
             }
-        },
-
-        {
-            type: 'editor',
-            name: 'contribute',
-            message: questions[6]
-        },
-
-        {
-            type: 'editor',
-            name: 'tests',
-            message: questions[7]
         },
 
         {
@@ -137,12 +123,6 @@ function init() {
                     return true;
                 }
             }
-        },
-
-        {
-            type: 'editor',
-            name: 'contact',
-            message: questions[10]
         }
     ])
     .then(projectData => {
